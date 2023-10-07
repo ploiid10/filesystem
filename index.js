@@ -83,4 +83,4 @@ app.delete('/file/:filename', async (req, res) => {
   res.status(500).send('File not found').end();
 })
 
-app.listen(3000, () => console.log('Example app is listening on port 3000.'));
+app.listen(3000, () => console.log('File System app is listening on port 3000.'));
