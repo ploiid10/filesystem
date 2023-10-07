@@ -9,6 +9,9 @@
 ## GET ```localhost:3000/files```
   - returns a list of files and folders in the public directory
 
+  **sample curl request**
+  ```curl --location 'localhost:3000/files'```
+
 ## POST `localhost/3000/file/create`
   - creates a file in the public directory and accepts bot url encoded and json data
 
